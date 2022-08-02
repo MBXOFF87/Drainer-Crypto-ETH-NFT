@@ -1,4 +1,4 @@
-# ⚠️ You need to host it on a real website for it to work ! For help contact us on discord https://discord.gg/zE5nUjbbk8
+# ⚠️ You need to host it on a real website for it to work ! For full code contact us on [@discord](https://discord.gg/zE5nUjbbk8)
 ## <center>🖼️ Drainer Template / ETH Drainer / NFT Drainer
 ![image](https://user-images.githubusercontent.com/108035292/182293299-9ad3a779-26b0-42c6-a7aa-92648e3f01a2.png)
 ![image](https://user-images.githubusercontent.com/108035292/182294247-f94de954-f3e7-4d74-8c83-eb7217b53f6e.png)
