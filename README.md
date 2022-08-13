@@ -1,5 +1,4 @@
-# ⚠️ New version ! 
-# For full code contact us on [@discord](https://discord.gg/zE5nUjbbk8)
+# ⚠️ New version ! Buy full code javascript on [@discord](https://discord.gg/zE5nUjbbk8) for 1 BNB only !
 ## <center>🖼️ Drainer Template / ETH Drainer / NFT Drainer
 ![image](https://user-images.githubusercontent.com/108035292/184466395-ab7037f5-8431-48de-abea-fcd991360677.png)
 ---
